@@ -1,0 +1,23 @@
+site_name: Ecosystem Services GeoAI Lab
+site_url: https://haoyuliao.github.io/2026-iale-workshop-ces-mapping/
+repo_url: https://github.com/haoyuliao/2026-iale-workshop-ces-mapping
+
+theme:
+  name: material
+
+copyright: Copyright &copy; 2026. All rights reserved.
+
+
+plugins:
+  - search
+  - mkdocs-jupyter:
+      execute: false
+      include_source: true
+      ignore_h1_titles: true
+
+nav:
+  - Home: index.md
+  - Conference:
+      - 2026 AGU: conference/agu2026.html
+  - Workshops:
+      - 2026 IALE: workshops/2026_IALE_Workshop_ES_Mapping.ipynb
